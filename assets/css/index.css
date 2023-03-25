@@ -31,6 +31,8 @@ header {
   padding: 40px 10%;
   background-color: #fff;
   height: 65px;
+  box-shadow: 0 8px 6px -6px rgb(155, 148, 148);
+
 }
 
 .logo {
@@ -51,6 +53,10 @@ header a img {
 
 }
 
+header .cta{
+  text-decoration: none;
+}
+
 .nav__links {
   list-style: none;
   display: flex;
@@ -67,11 +73,14 @@ header a img {
 
 .nav__links li {
   padding: 0px 20px;
+  margin-top: 20px;
+
 }
 
 .nav__links li a {
   transition: all 0.3s ease 0s;
   color: #777a7b;
+  font-size: 17px;
 
 }
 
@@ -173,10 +182,11 @@ header a img {
 }
 
 .main_banner_content {
-  background-color: #37635d;
+  background-color: #6c8484;
   background-attachment: fixed;
   height: 689px;
   border: 2px solid rgb(228, 223, 223);
+  margin-top: 5px;
 }
 
 .main_banner_content .heading_left {
@@ -242,6 +252,12 @@ header a img {
   margin-top: 100px;
   width: 1000px;
   border-radius: 5px;
+
+}
+
+#start_funding{
+  box-shadow: 0 8px 6px -6px rgb(155, 148, 148);
+
 }
 
 .sports_funding_intro .mb-0 {
@@ -310,6 +326,9 @@ header a img {
   background-color: #fff;
   border: none;
 }
+#fund_questions{
+   margin-left: 220px;
+}
 /* <!-------------------------explain questions----------------------------------------> */
 
 
@@ -377,7 +396,11 @@ header a img {
 }
 #fund_questions{
   font-size: 40px;
+  margin-right: 200px;
 
+}
+#fund_questions_border{
+  margin-left: 350px;
 }
 
 .row[why_athelets_need_main_div_explains]{
