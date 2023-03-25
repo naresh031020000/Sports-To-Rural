@@ -9,6 +9,7 @@
 }
 
 body {
+
   font-family: var(--primary-font-family);
 
 }
@@ -27,7 +28,7 @@ header {
   display: flex;
   justify-content: flex-end;
   align-items: center;
-  padding: 30px 10%;
+  padding: 40px 10%;
   background-color: #fff;
   height: 65px;
 }
@@ -44,9 +45,9 @@ header a #span_logo_text {
 }
 
 header a img {
-  width: 50px;
+  width: 60px;
   border-radius: 50%;
-  border: 1px solid black;
+  border: 1px solid rgb(208, 206, 206);
 
 }
 
@@ -149,15 +150,37 @@ header a img {
 /* <!------------------------- Intro banner section Section----------------------------------------> */
 
 
+
+.title {
+  position: absolute;
+  width: 420px;
+  margin-left: 100px;
+  margin-top: 80px;
+  font-size: 140px;
+  color: transparent;
+  background-image: linear-gradient(white, white);
+  background-repeat: no-repeat;
+  -webkit-background-clip: text;
+  background-position: -800px;
+  animation: backcolor 7s both  1 ;
+}
+
+@keyframes backcolor {
+  100% {
+      background-position: 0;
+  }
+
+}
+
 .main_banner_content {
-  background-image: url(../images/index/main_sports_background_image.webp);
+  background-color: #37635d;
   background-attachment: fixed;
   height: 689px;
   border: 2px solid rgb(228, 223, 223);
 }
 
 .main_banner_content .heading_left {
-  margin-left: 250px;
+  margin-left: 830px;
   margin-top: 150px;
   display: flex;
   flex-direction: column;
