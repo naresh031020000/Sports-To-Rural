@@ -49,7 +49,8 @@ header a #span_logo_text {
 header a img {
   width: 60px;
   border-radius: 50%;
-  border: 1px solid rgb(208, 206, 206);
+  border: none;
+  background-color: white;
 
 }
 
@@ -103,6 +104,7 @@ header .cta{
 
 .cta:hover {
   background-color: rgba(235, 238, 240, 0.8);
+  color: #2be8e8;
 }
 
 /* Mobile Nav */
@@ -182,7 +184,7 @@ header .cta{
 }
 
 .main_banner_content {
-  background-color: #6c8484;
+  background-color: #28b0b0;
   background-attachment: fixed;
   height: 689px;
   border: 2px solid rgb(228, 223, 223);
